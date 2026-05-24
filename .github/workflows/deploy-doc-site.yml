@@ -3,7 +3,7 @@ name: Deploy doc site
 on:
   push:
     branches:
-      - doc
+      - site
     paths:
       - "site/**"
       - ".github/workflows/deploy-doc-site.yml"
